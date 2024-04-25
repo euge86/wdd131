@@ -20,7 +20,7 @@ nav {
     grid-column: 1/4;
     padding: 0.5rem;
     background-color: green;
-    margin: o auto;
+    margin: 0 auto;
     height: 50px;
    
 }
