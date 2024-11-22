@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Eugenia Espejo</title>
+    <meta name="description" content="Home page developed by Eugenia Espejo for WDD 131 Web Fundamentals.">
+    <meta name="author" content="Eugenia Espejo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Parkinsans:wght@300..800&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+     <h1>WDD 131 - Dynamic Web Fundamentals - Eugenia Espejo</h1>
+     <nav>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/eugenia-espejo-807956247/" title="LinkedIn">LinkedIn</a></li>
+            <li><a href="https://byui.instructure.com/" title="I-Learn">I-Learn</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=spa&id=p41#p41" title="Scripture">Scripture </a></li>
+            <li><a href="#" title="Final Project">Final Project</a></li>
+        </ul>
+     </nav>
+    </header>
+    <main>
+        <section class="card">
+          <h2> About Me</h2>
+            <div class="container">
+             <div class="bloque">
+               <div class="text">
+                <p>My name is Eugenia, I am from the United States but I have lived practically all my life in Mendoza, Argentina. 
+                   I am studying Software Development and have been married for 9 years.
+                   I like to travel, see new places and I love to dance.</p>
+               </div>
+               <div class="imagen">
+                <img  src="images/MeInMardel.jpg" alt="About Me">
+               </div>
+             </div>
+            <h3> Mendoza, Argentina</h3>
+             <div class="bloque">
+              <div class="imagen">
+             <img src="images/Argentina.jpg" alt="Argentina-Flag">
+              </div>
+              <div class="text">
+               <p>Mendoza is a city in western Argentina and capital of the province of the same name . 
+                  It is located on the plain east of the Andes mountain range. It is one of the main cities in the country, 
+                  and with its urban aglomeration, called Greater Mendoza, it reaches a total population of over one million inhabitants. 
+                  Its surface area is 57 km², although its metropolitan area extends to 168 km².</p>
+              </div>
+             </div>
+            </div>
+        </section>
+        <section class="card2">
+            <h2> Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">w3schools</a></li>
+                <li><a href="https://coolors.co/">Coolors</a></li>
+                <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN-Javascript</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Eugenia Espejo. Mendoza Argentina</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
 </body>
 </html>
