@@ -1,0 +1,224 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #7E52A0;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    font-family: "Parkinsans", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: 1px solid #012A36;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+    padding: 20px;
+    background-color: #F5DFBB;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration-line: underline;
+    color:#012A36;
+}
+.active {
+    color:#012A36;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+h2 {
+    position: static;
+    text-align: center;
+    width: 100%;
+    background-color: #7E52A0;
+    color: aliceblue;
+    font-family: "Parkinsans", sans-serif;
+
+}
+h3 {
+    text-align: center;
+    border-bottom: 1px solid #012A36;
+    padding: 10px;
+    grid-row:2;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.card {
+    width: 100%;
+    grid-column: 1/3;
+    padding: 10px;
+    border: 1px solid #012A36;
+    border-radius: 10px;
+
+}
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bloque {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+  
+.text {
+    flex: 1; 
+    padding: 20px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.2rem;
+}
+  
+.imagen {
+    flex: 1; 
+    max-width: 50%; 
+}
+  
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.text p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+}  
+.card2 {
+    width: 100%;
+    grid-column: 3/4;
+    padding: 10px;
+    border: 1px solid #012A36;
+    border-radius: 10px;
+    
+}
+.card2 ul li  {
+
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+.card2 ul {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+footer{
+    background-color: #7E52A0;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
