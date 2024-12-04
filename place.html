@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netherlands</title>
+    <meta name="description" content="A design with demographic and climate information for the Netherlands.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <meta name="author" content="Eugenia Espejo">
+    <link rel="stylesheet" href="styles/place.css" media="screen">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Netherlands</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/netherlandas-large.webp" media="(min-width: 900px)">
+                <img src="images/netherlands-small.webp" alt="Netherlands Tulips" width="600">
+            </picture>
+            <section class="dataset">
+                <h2>Data</h2>
+                <div class="row">
+                    <div class="col">Area:</div>
+                    <div class="col">41,543 km²</div>
+                </div>
+                <div class="row">
+                    <div class="col">Population:</div>
+                    <div class="col">17,700,000</div>
+                </div>
+                <div class="row">
+                    <div class="col">Capital:</div>
+                    <div class="col">Ámsterdam</div>
+                </div>
+                <div class="row">
+                    <div class="col">Languages:</div>
+                    <div class="col">Dutch</div>
+                </div>
+                <div class="row">
+                    <div class="col">Currency:</div>
+                    <div class="col">Euro</div>
+                </div>
+                <div class="row">
+                    <div class="col">Time Zone:</div>
+                    <div class="col">UTC +1</div>            
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="A weather icon"  width="100">
+                <div class="row">
+                    <div class="col"><p id="temperature">Temperature:</p></div>
+                    <div class="col temp">32°F</div>
+                </div>
+                <div class="row">
+                    <div class="col">Conditions:</div>
+                    <div class="col">Cold</div>
+                </div>
+                <div class="row">
+                    <div class="col"><p id="windSpeed">Wind Speed:</p></div>
+                    <div class="col wind">15 mph</div>
+                </div>
+                <div class="row">
+                    <div class="col">Wind Chill: </div>
+                    <div class="col chill"><p id="windChill"></p></div>
+                </div>
+            </section>
+        </div>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Eugenia Espejo. Mendoza Argentina</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+            
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+@media screen and (min-width: 900px) {
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    .dataset {
+        position: absolute;
+        background-color: var(--secondary-transparent);
+        top: 2rem;
+        left: 4rem;
+        border-radius: 5%;
+        
+    }
+
+    .dataset h2 {
+        text-align: left;
+        background-color: var(--primary-color);
+        width: 100%;
+        position: relative;
+        transform: translateX(-10%);
+        color: var(--secondary-color);
+        opacity: 0.8;
+        border-radius: 5%;
+    }
+    
+    .col{
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .weather {
+        position: absolute;
+        right: 4rem;
+        bottom: 1rem;
+        background-color: var(--primary-transparent);
+        border-radius: 5%;
+    
+    }
+
+    .weather img {
+        display: none;
+    }
+
+    .weather h2 {
+        text-align: left;
+        background-color: var(--primary-color);
+        width: 100%;
+        position: relative;
+        transform: translateX(-10%);
+        color: var(--secondary-color);
+        opacity: 0.8;
+        border-radius: 5%;
+    }
+
+    .weather h2::after {
+        content: "🌨️";
+        padding:10px;
+    }
+}
