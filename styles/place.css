@@ -17,7 +17,7 @@ header {
     color: var(--secondary-color);
     text-align: center;
     width: 100%;
-    font-family: "Hachi Maru Pop", cursive;
+    font-family: "Parkinsans", serif;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h2 {
     text-align: center;
     padding: 1rem;
     font-size: 1.75rem;
-    font-family: "Hachi Maru Pop", cursive;
+    font-family: "Parkinsans", serif;
 }
 
 img {
@@ -68,7 +68,7 @@ img {
     display: grid;
     align-items: center;
     padding: 1rem;
-    font-family: "Parkinsans", sans-serif;
+    font-family: "Parkinsans", serif;
 }
 
 .row {
@@ -95,7 +95,7 @@ img {
 
 .weather {
     padding: 1rem;
-    font-family: "Parkinsans", sans-serif;
+    font-family: "Parkinsans", serif;
 }
 
 footer {
@@ -103,6 +103,7 @@ footer {
     color: var(--secondary-color);
     background-color:var(--tertiary-color);
     width: 100%;
-    font-family: "Parkinsans", sans-serif;
+    font-family: "Parkinsans", serif;
     margin: 0 auto;
+    padding: 10px;
 }
