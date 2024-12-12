@@ -20,6 +20,9 @@ main{
 h1 {
 	font-size: 2rem;
 	font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 	padding: 10px;
     text-align: center;
     width: 75%;
@@ -27,13 +30,24 @@ h1 {
 }
 
 p, li  {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
     margin:5px;
+}
+
+.title{
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
 }
 
 .web {
    text-align: center;
-   font-family: "Open Sans", sans-serif;
+   font-family: "Source Code Pro", monospace;
 }
 
 h2 {
@@ -42,11 +56,17 @@ h2 {
     font-size: 1.5rem;
     margin: 20px;
 	font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     color: #1E430B;
 }
 
-h3{
+h3 {
 	font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 	font-size: 1rem;
     padding: 15px;
     margin: 10px;
@@ -82,6 +102,6 @@ footer p {
 	padding: .5rem;
     color:white;
     text-align:center;
-	font-family: "Open Sans", sans-serif
+	font-family: "Source Code Pro", monospace;
 }
 
