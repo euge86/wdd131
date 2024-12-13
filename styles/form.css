@@ -45,8 +45,7 @@
   fieldset {
     border: none;
   }
-  
-  div{
+   div{
     color:#3C1518;
     padding: 10px;
     font-size: 1rem;
@@ -72,7 +71,7 @@
   
   input[type="radio"],
   input[type="checkbox"] {
-    margin: 5px;
+    margin:10px;
 
   }
   
